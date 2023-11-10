@@ -1,0 +1,33 @@
+.carousel-slide {
+  position: relative;
+  display: flex;
+  background-size: contain; /* Prevent image zooming on wide devices */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel-text {
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+
+  flex: 1;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-text h3 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-style: italic;
+  color: orange;
+}
+
+.carousel-text p {
+  margin: 0;
+}
+.carousel-slide div {
+  flex: 1; /* Expand to take remaining width */
+}

@@ -1,11 +1,25 @@
-import { useState } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
-import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomePageLayout from "./components/HomePage/HomePageLayout";
 
 function App() {
   return (
     <>
-      <h1 className="text-2xl font-bold underline">Hello world!</h1>
+      <Header
+        Home="Home"
+        AboutUs="AboutUs"
+        OurTeam="OurTeam"
+        ContactUs="ContactUs"
+      />
+
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePageLayout />} />
+        </Routes>
+      </Router>
+      <Footer />
     </>
   );
 }
