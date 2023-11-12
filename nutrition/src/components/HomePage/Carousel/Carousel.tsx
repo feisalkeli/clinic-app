@@ -33,11 +33,11 @@ const ImageCarousel = () => {
     <div className="flex ">
       <Carousel
         showThumbs={false}
-        showArrows={true}
+        showArrows={false}
         showStatus={false}
         infiniteLoop={true}
         autoPlay={true}
-        interval={3000}
+        interval={2000}
         useKeyboardArrows={true}
         showIndicators={false}
         dynamicHeight={false}
@@ -53,13 +53,13 @@ const ImageCarousel = () => {
               className="object-contain "
             />
             <div className="absolute top-[30%] md:top-[60%] xl:top-[50%] lg:ml-10 xl:ml-[190px] brightness-150 ">
-              <h3 className="text-amber-600 italic text-lg md:text-[50px] ">
+              <h3 className="text-amber-600 italic text-lg md:text-[50px] font-extrabold ">
                 {items.title}
               </h3>
               <p className="hidden md:block mt-5 mb-5 md:text-[35px] font-bold text-green-600">
                 {items.description}
               </p>
-              <p className="hidden md:block text-lg font-thin text-white">
+              <p className="hidden md:block text-lg  text-white font-extrabold">
                 {items.text}
               </p>
             </div>

@@ -40,7 +40,7 @@ const AboutUs = () => {
               <img src={icon2} alt="" />
               <p className="">Personalized Nutrition Plan</p>
             </div>
-            <div className=" flex gap-6 items-center  max-w-[200px]">
+            <div className=" flex gap-6 items-center  max-w-[200px] ml-9">
               <img src={icon1} alt="" />
               <p className="max-w-[200px]">Personalized Exersice Plan</p>
             </div>
