@@ -19,9 +19,9 @@
 
 /* Custom animation classes */
 .animate-marquee {
-  animation: marquee 10s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 .animate-marquee-reverse {
-  animation: marquee-reverse 10s linear infinite;
+  animation: marquee-reverse 5s linear infinite;
 }

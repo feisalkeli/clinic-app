@@ -14,13 +14,13 @@ const Header: React.FC<HeaderComponentProps> = ({
   OurTeam,
 }) => {
   return (
-    <nav className="flex justify-center items-center fixed  z-10 p-4 w-full">
-      <div className="flex flex-1 justify-between">
+    <nav className="flex justify-center items-center fixed z-10   p-4 w-full bg-transparent">
+      <div className="flex justify-end flex-1 justify-between">
         {/* Image Logo */}
-        <div className="">
+        {/* <div className="">
           <img src="../assets/img/logos/logo.png" alt="image_logo" />
-        </div>
-        <div className="  justify-end hidden md:block text-white font-bold ">
+        </div> */}
+        <div className=" flex  justify-end hidden md:block text-white font-bold ">
           <ul className="flex justify-between gap-4 items-center">
             <li>
               {" "}
@@ -42,7 +42,7 @@ const Header: React.FC<HeaderComponentProps> = ({
 
         {/* Hamburger Logo */}
 
-        <div className="block md:hidden">
+        <div className="  block md:hidden">
           <i className="fa fa-lg fa-bars"></i>
         </div>
       </div>

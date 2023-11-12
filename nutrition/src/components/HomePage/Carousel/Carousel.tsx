@@ -3,9 +3,9 @@ import { Carousel } from "react-responsive-carousel";
 import "./Carousel.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import banner1 from "../../../assets/img/banner/banner-01.jpg";
-import banner2 from "../../../assets/img/banner/banner-02.jpg";
-import banner3 from "../../../assets/img/banner/banner-03.jpg";
+import banner1 from "../../../assets/img/banner/banner-04.jpg";
+import banner2 from "../../../assets/img/banner/banner-07.jpg";
+import banner3 from "../../../assets/img/banner/banner-06.jpg";
 
 const slider = [
   {
@@ -30,7 +30,7 @@ const slider = [
 
 const ImageCarousel = () => {
   return (
-    <div className="flex">
+    <div className="flex ">
       <Carousel
         showThumbs={false}
         showArrows={true}
@@ -45,7 +45,7 @@ const ImageCarousel = () => {
         {slider.map((items, index) => (
           <div
             key={index}
-            className="   relative bg-cover bg-center bg-no-repeat md:bg-contain bg-opacity-65 brightness-50"
+            className="   relative bg-cover  bg-no-repeat md:bg-contain bg-opacity-65 brightness-75"
           >
             <img
               src={items.image}

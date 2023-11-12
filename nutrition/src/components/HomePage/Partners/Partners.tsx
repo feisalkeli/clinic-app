@@ -28,8 +28,13 @@ const images = [
  */
 const Partners = () => {
   return (
-    <section className="mt-12">
-      <div className="flex">
+    <section className=" mt-[50px] md:mt-[130px] ">
+      <div className=" flex justify-center items-center mb-10">
+        <p className="text-[30px] font-bold">
+          Our <span className="text-amber-600">Partners</span>{" "}
+        </p>
+      </div>
+      <div className="flex  items-center overflow-hidden">
         {images.map((image, index) => (
           <ImageCard key={index} image={image} index={index} />
         ))}

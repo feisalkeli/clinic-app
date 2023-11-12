@@ -1,3 +1,4 @@
+import AboutUs from "./AboutUs";
 import ImageCarousel from "./Carousel/Carousel";
 import Carousel from "./Carousel/Carousel";
 import Partners from "./Partners/Partners";
@@ -12,6 +13,7 @@ const HomePageLayout = () => {
     <div>
       <ImageCarousel />
       <Partners />
+      <AboutUs />
     </div>
   );
 };
