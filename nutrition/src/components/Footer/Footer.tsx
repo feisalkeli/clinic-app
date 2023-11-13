@@ -8,7 +8,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-cyan-950 p-3">
+      <footer className="bg-cyan-950 p-3 md:p-[80px] lg:p-[100px]">
         <div className="flex flex-1 justify-between mt-3 flex-col md:flex-row gap-6">
           <div className="flex flex-col">
             <img
@@ -69,7 +69,7 @@ const Footer = () => {
               </h3>
             </div>
             <div className=" flex gap-5">
-              <img src="./footer-thumb1.jpg" />
+              <img src="../../assets/img/content/support-motivation-02.jpg" />
               <p className="max-w-[200px] text-white mb-6">
                 What I wish everyone knew about exercise.
               </p>

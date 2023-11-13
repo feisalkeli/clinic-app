@@ -3,7 +3,7 @@ import ImageCarousel from "./Carousel/Carousel";
 import Carousel from "./Carousel/Carousel";
 import Partners from "./Partners/Partners";
 import Services from "./Services/Services";
-
+import ContactUs from "./ContactUs/ContactUs";
 /**
  *Responsible for rendering the Home Layout Components
  *
@@ -16,6 +16,7 @@ const HomePageLayout = () => {
       <Partners />
       <AboutUs />
       <Services />
+      <ContactUs />
     </div>
   );
 };
