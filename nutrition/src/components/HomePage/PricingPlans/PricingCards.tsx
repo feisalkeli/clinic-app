@@ -12,7 +12,7 @@ const PricingCards = () => {
                 Basic Plan
               </p>
               <p className="text-2xl mt-4 font-extrabold">
-                <span className="text-5xl">$</span>500
+                <span className="text-5xl">$</span>1500
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ const PricingCards = () => {
                 Premium Plan
               </p>
               <p className="text-2xl mt-4 font-extrabold">
-                <span className="text-5xl">$</span>500
+                <span className="text-5xl">$</span>7500
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const PricingCards = () => {
                 Standard Plan
               </p>
               <p className="text-2xl mt-4 font-extrabold">
-                <span className="text-5xl">$</span>500
+                <span className="text-5xl">$</span>3500
               </p>
             </div>
           </div>

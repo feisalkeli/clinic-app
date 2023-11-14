@@ -24,7 +24,7 @@ const AboutUs = () => {
               <span className="font-extrabold">prevent disease</span> with
               nutrition
             </p>
-            <p className="italic text-amber-600 text-lg mb-10">
+            <p className="italic text-amber-600 text-lg mb-10 font-extrabold">
               We have 20 years of nutrition and fitness health experience
               globaly, work with professionals
             </p>
