@@ -21,9 +21,7 @@ const Services = () => {
             products.
           </p>
         </div>
-        <div className="p-4">
-          <Carousel />
-        </div>
+        <div className="p-4">{/* <Carousel /> */}</div>
       </div>
     </section>
   );

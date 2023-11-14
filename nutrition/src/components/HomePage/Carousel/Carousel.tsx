@@ -37,7 +37,7 @@ const ImageCarousel = () => {
         showStatus={false}
         infiniteLoop={true}
         autoPlay={true}
-        interval={2000}
+        interval={5000}
         useKeyboardArrows={true}
         showIndicators={false}
         dynamicHeight={false}
@@ -45,7 +45,7 @@ const ImageCarousel = () => {
         {slider.map((items, index) => (
           <div
             key={index}
-            className="   relative bg-cover  bg-no-repeat md:bg-contain bg-opacity-65 brightness-75"
+            className="   relative bg-cover  bg-no-repeat md:bg-contain bg-opacity-65 brightness-75 "
           >
             <img
               src={items.image}
