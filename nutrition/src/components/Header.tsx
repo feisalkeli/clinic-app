@@ -16,10 +16,6 @@ const Header: React.FC<HeaderComponentProps> = ({
   return (
     <nav className="flex justify-center items-center fixed z-10   p-4 w-full bg-transparent">
       <div className="flex justify-end flex-1 ">
-        {/* Image Logo */}
-        {/* <div className="">
-          <img src="../assets/img/logos/logo.png" alt="image_logo" />
-        </div> */}
         <div className=" flex  justify-end hidden md:block text-white font-bold ">
           <ul className="flex justify-between gap-4 items-center">
             <li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const PricingCards = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-8">
+    <div className="flex flex-wrap flex-col md:flex-row gap-8">
       {/* Basic Plan Card */}
       <div className="rounded-[30px] shadow-2xl border border-solid w-[300px] h-[500px] mb-5">
         <div className="text-center ">
@@ -66,7 +66,7 @@ const PricingCards = () => {
         </div>
       </div>
       {/* Standard Plan */}
-      <div className="rounded-[30px] shadow-2xl border border-solid w-[300px] h-[500px] mb-5">
+      <div className="rounded-[30px]  shadow-2xl border border-solid w-[300px] h-[500px] mb-5">
         <div className="text-center ">
           <div className="bg-lime-900 h-[140px] rounded-sm">
             <div className="absolute mt-7 ml-[90px]">

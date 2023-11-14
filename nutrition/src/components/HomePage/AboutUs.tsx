@@ -36,11 +36,11 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="flex flex-col md:flex-row">
-            <div className="flex gap-6 items-center max-w-[200px]">
+            <div className="flex gap-6 items-center max-w-[200px] ">
               <img src={icon2} alt="" />
               <p className="">Personalized Nutrition Plan</p>
             </div>
-            <div className=" flex gap-6 items-center  max-w-[200px] ml-9">
+            <div className=" flex gap-6 items-center  max-w-[200px]  ml-2 md:ml-9">
               <img src={icon1} alt="" />
               <p className="max-w-[200px]">Personalized Exersice Plan</p>
             </div>
