@@ -20,3 +20,5 @@ export interface HeaderComponentProps {
   OurTeam: string;
   ContactUs: string;
 }
+
+// navbar modal

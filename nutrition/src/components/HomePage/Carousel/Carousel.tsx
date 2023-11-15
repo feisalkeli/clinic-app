@@ -52,9 +52,14 @@ const ImageCarousel = () => {
               className="object-contain "
             />
             <div className="absolute top-[30%] md:top-[60%] xl:top-[50%] lg:ml-10 xl:ml-[190px] brightness-150 ">
-              <h3 className="text-amber-600 italic text-lg md:text-[50px] font-extrabold ">
+              <h3 className="text-amber-600 italic text-lg md:text-[50px] font-extrabold ml-3 ">
                 {items.title}
               </h3>
+              {/* <div className="p-1 bg-amber-600 mt-10 md:hidden rounded-lg ml-6 ">
+                <button className="text-white font-light ">
+                  Get Started Now
+                </button>
+              </div> */}
               <p className="hidden md:block mt-5 mb-5 md:text-[35px] font-bold text-green-600">
                 {items.description}
               </p>
