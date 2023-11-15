@@ -1,5 +1,3 @@
-import React from "react";
-
 import background from "../../../assets/img/bg/bg-01.jpg";
 import banner from "../../../assets/img/content/why-us.jpg";
 import Accordion from "./Accordion";

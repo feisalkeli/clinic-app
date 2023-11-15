@@ -1,4 +1,3 @@
-import React from "react";
 import Doctors from "./Doctors";
 import image1 from "../../../assets//img/team/01.jpg";
 import image2 from "../../../assets//img/team/02.jpg";
@@ -33,7 +32,7 @@ const OurTeam = () => {
   return (
     <section className="w-full p-10">
       <div className="flex flex-col justify-center">
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up-right">
           <p className="font-extrabold text-amber-600 italic text-[30px] mb-8">
             Diet + nutrition experts
           </p>

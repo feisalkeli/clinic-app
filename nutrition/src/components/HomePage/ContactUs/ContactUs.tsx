@@ -1,4 +1,3 @@
-import React from "react";
 import background from "../../../assets/img/bg/bg-04.jpg";
 
 const ContactUs = () => {

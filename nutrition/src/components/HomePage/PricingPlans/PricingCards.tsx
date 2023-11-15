@@ -1,5 +1,3 @@
-import React from "react";
-
 const PricingCards = () => {
   return (
     <div className="flex flex-wrap flex-col md:flex-row gap-8">

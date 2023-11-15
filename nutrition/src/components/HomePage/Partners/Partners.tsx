@@ -1,5 +1,3 @@
-import React from "react";
-
 import partner1 from "../../../assets/img/partners/01.png";
 import partner2 from "../../../assets/img/partners/02.png";
 import partner3 from "../../../assets/img/partners/03.png";

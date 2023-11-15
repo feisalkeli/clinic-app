@@ -1,5 +1,4 @@
-import React from "react";
-import Carousel from "./Carousel";
+import CardCarousel from "./Carousel";
 
 const Services = () => {
   return (
@@ -21,7 +20,9 @@ const Services = () => {
             products.
           </p>
         </div>
-        <div className="p-4">{/* <Carousel /> */}</div>
+        <div className="p-4">
+          <CardCarousel />
+        </div>
       </div>
     </section>
   );

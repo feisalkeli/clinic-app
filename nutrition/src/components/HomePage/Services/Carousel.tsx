@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Carousel } from "react-responsive-carousel";
+// import React, { useEffect } from "react";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Carousel } from "react-responsive-carousel";
 import "./CardCarousel.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Cards from "./Cards";
@@ -67,27 +67,10 @@ const cardDetails = [
 const CardCarousel = () => {
   return (
     <>
-      {/* <Carousel
-        showThumbs={false}
-        showArrows={false}
-        showStatus={false}
-        infiniteLoop={true}
-        autoPlay={true}
-        interval={2000}
-        useKeyboardArrows={true}
-        showIndicators={false}
-        dynamicHeight={false}
-      >
-        {cardDetails.map((card, index) => (
-          <div key={index}>
-            <Cards card={card} />
-          </div>
-        ))}
-      </Carousel> */}
-      <div className="marquee-container">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-4  items-center   ">
         {/* Render each card individually on the page */}
         {cardDetails.map((card, index) => (
-          <div key={index} className="marquee-item ">
+          <div key={index} className="">
             <Cards card={card} />
           </div>
         ))}

@@ -1,4 +1,3 @@
-import React from "react";
 import aboutImage from "../../assets/img/content/about-01.jpg";
 import aboutImage2 from "../../assets/img/content/about-06.jpg";
 import icon1 from "../../assets/img/icons/icon-19.png";
@@ -7,7 +6,7 @@ const AboutUs = () => {
   return (
     <section className="w-full p-[40px] md:[80px]  ">
       <div className="flex flex-1 flex-col md:flex-row justify-center items-center ">
-        <div className="flex relative ">
+        <div className="flex relative " data-aos="fade-up-right">
           <img src={aboutImage} alt="" className="rounded-full " />
           <div className="absolute   hidden md:block">
             <img
